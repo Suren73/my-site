@@ -153,8 +153,11 @@ body {
 .projects p {
   margin: 0 0 24px;
 }
-
+.project:not(:last-child) {
+	margin-bottom: 16px;
+}
 .button {
+  /* margin-bottom: 10px;; */
   padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
